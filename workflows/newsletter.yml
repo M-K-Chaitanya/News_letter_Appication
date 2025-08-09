@@ -1,7 +1,0 @@
-# In .github/workflows/newsletter.yml
-
-on:
-  schedule:
-    # Change this line
-    - cron: '*/5 * * * *'  # This means "run every 5 minutes"
-  workflow_dispatch:
