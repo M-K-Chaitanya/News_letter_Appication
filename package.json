@@ -1,0 +1,27 @@
+{
+  "name": "email-sender",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.54.0",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dot-env": "^0.0.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "marked": "^15.0.12",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.5",
+    "openai": "^5.12.2",
+    "pdf-parse": "^1.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
