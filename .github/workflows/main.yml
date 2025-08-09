@@ -3,7 +3,7 @@ name: Send Daily Newsletter
 on:
   schedule:
     # Runs at 03:30 UTC, which is 9:00 AM in India Standard Time (IST)
-    - cron: '*/5 * * * *'
+    - cron: '*/0 10 * * *'
   workflow_dispatch: # Allows you to run it manually from the Actions tab for testing
 
 jobs:
