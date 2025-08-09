@@ -1,7 +1,7 @@
-# In .github/workflows/newsletter.yml
+# In .github/workflows/main.yml
 
 on:
   schedule:
-    # Change this line
-    - cron: '*/5 * * * *'  # This means "run every 5 minutes"
+    # Change this line for testing
+    - cron: '*/5 * * * *'  # This tells GitHub to run the job every 5 minutes
   workflow_dispatch:
